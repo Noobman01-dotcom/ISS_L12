@@ -45,10 +45,10 @@
 | 11  |   baseURL is used in some places but missing in others                                        |   shaurya            |    shaurya          |
 | 12  |  In main.py-- Changed the home route path:                                       |         Prasad        |       Prasad         |
 | 13  |                                          |               |              |
-| 14  |                                          |               |              |
-| 15  |                                          |               |              |
+| 14  |  Returned collections as a dictionar     |  sasikumar    | sasikumar
+| 15  |. Named the database (testdb) and collections clearly     |   sasikumar            |      sasikumar        |
 | 16  |                                          |               |              |
-| 17  |                                          |               |              |
+| 17  |   Used os.getenv("MONGO_URL", ...)       |  sasikumar             |     sasikumar         |
 | 18  |                                          |               |              |
 | 19  |                                          |               |              |
 | 20  |                                          |               |              |
