@@ -1,76 +1,46 @@
-from fastapi import APIRouter
-import random
+
+from fastapi import APIRouter, HTTPException
+from pydantic import BaseModel
+from typing import List, Optional
+from db import init_db
 
 router = APIRouter(tags=["quiz"])
 
-# I actually could have added this to a collection in mongodb
-questions = [
-    {
-        "id": 1,
-        "text": "What command lists directory contents?",
-        "options": ["ls", "cd", "rm", "pwd"],
-        "correct": "ls"
-    },
-    {
-        "id": 2,
-        "text": "Which command searches for text in files?",
-        "options": ["find", "grep", "locate", "cat"],
-        "correct": "grep"
-    },
-    {
-        "id": 3,
-        "text": "What changes file permissions?",
-        "options": ["chmod", "chown", "mv", "cp"],
-        "correct": "chmod"
-    },
-    {
-        "id": 4,
-        "text": "Which command displays the current directory?",
-        "options": ["dir", "pwd", "path", "where"],
-        "correct": "pwd"
-    },
-    {
-        "id": 5,
-        "text": "What removes a file?",
-        "options": ["rm", "del", "erase", "unlink"],
-        "correct": "rm"
-    }
-]
+class AnswerRequest(BaseModel):
+    question_id: int
+    answer: str
+    score: int
 
-game_state = {"high_score": 0}
-# god would hate me for not dockerizing this repo
+async def get_quiz_collection():
+    db = await init_db()
+    return db["quiz_collection"]
+
 @router.get("/question")
 async def get_question():
-    question = questions[1]
+    collection = await get_quiz_collection()
+    questions = await collection.find().to_list(length=5)
+    if not questions:
+        raise HTTPException(status_code=404, detail="No questions found")
+    question = random.choice(questions)
     return {
-        "id": question["id"],
+        "id": str(question["_id"]),
         "text": question["text"],
         "options": question["options"]
     }
 
-@router.get("/answer")
-async def submit_answer(data: dict):
-    question_id = data.get("id")
-    answer = data.get("answer")
-    score = data.get("score", 0)
-
-    question = next((q for q in questions if q["id"] == question_id), None)
+@router.post("/answer")
+async def submit_answer(data: AnswerRequest):
+    collection = await get_quiz_collection()
+    question = await collection.find_one({"_id": ObjectId(data.question_id)})
     if not question:
-        return {"error": "Invalid question ID"}
+        raise HTTPException(status_code=404, detail="Question not found")
 
-    is_correct = answer == question["correct"]
+    is_correct = data.answer == question["correct"]
     if is_correct:
-        score += 10
-        if score > game_state["high_score"]:
-            game_state["high_score"] = score
+        data.score += 10
 
     return {
         "is_correct": is_correct,
         "correct_answer": question["correct"],
-        "score": score,
-        "high_score": game_state["high_score"]
+        "score": data.score
     }
-
-@router.get("/highscore")
-async def get_highscore():
-    return {"high_score": game_state["high_score"]}
