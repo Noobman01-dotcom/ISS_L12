@@ -36,8 +36,8 @@
 | 2   |    Added router prefix                                    | Prasad              |      Prasad          |
 | 3   |    Fixed user data initialization                                 |     Prasad                     |           Prasad      |
 | 4   |      wrong method for deletion, using post instead of delete                                    |       Shaurya         |   Shaurya           |
-| 5   |             In analytics.py --  Corrected field names                                      |      Prasad         |         Prasad       |
-| 6   |                                          |               |              |
+| 5   |    In analytics.py --  Corrected field names                                      |      Prasad         |         Prasad       |
+| 6   |    Added chart data to response                                    |               |         Prasad          Prasad   |
 | 7   |                                          |               |              |
 | 8   |                                          |               |              |
 | 9   |                                          |               |              |
