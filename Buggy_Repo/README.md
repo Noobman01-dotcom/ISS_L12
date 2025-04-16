@@ -59,6 +59,6 @@
 | 25  |                                          |               |              |
 | 26  |Changed <script src="styles/profile.js"></script> to <script src="scripts/profile.js"></script> in profile.html.  | Harshit              |Harshit              |
 | 27  |                                          |               |              |
-| 28  |                                          |               |              |
+| 28  |  <script src="scripts/quiz.js"></script>   in quiz.html                                     | Harshit              | Harshit             |
 | 29  |                                          |               |              |
 | 30  |                                          |               |              |
