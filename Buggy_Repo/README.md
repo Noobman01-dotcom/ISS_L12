@@ -14,7 +14,7 @@
 - Bugs might be section of unnecessary code
 - Bugs might be useless files
 - Bugs might be in the UI/UX of the pages
-- Bugs might be in the api calls
+- Bugs might be in the api calls   
 - Bugs might be in the dependencies  
 
 ### submission format
