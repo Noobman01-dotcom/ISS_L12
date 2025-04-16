@@ -26,7 +26,7 @@
 
 ### Add the names of the members and roll numbers of your team below
 
-- Name : Roll Number -  Shaurya Gupta : 2024113013, Harshit Singh Mehta : 2024113008, Prasad Ramineni : 2024101040, GudiPati Sasi Kumar : 2024101115.
+- Name : Roll Number -  Shaurya Gupta : 2024113013, Harshit Singh Mehta : 2024113008, Prasad Ramineni : 2024101040, GudiPati Sasi Kumar : 2024101115, Hemanth Kumar : 2024101113.
 
 ### Table to keep track
 
