@@ -42,7 +42,7 @@
 | 8   | Fixed the src attribute for the <img> tag:  in analytics.html                                       |    Harshit           |   Harshit           |
 | 9   |  Added the missing <div class="container"> in items.html                                             |      Harshit       |Harshit                  
 | 10  |   Added docstring and inline comments    |     sasikumar |    sasikumar |
-| 11  |                                          |               |              |
+| 11  |   baseURL is used in some places but missing in others                                        |   shaurya            |    shaurya          |
 | 12  |                                          |               |              |
 | 13  |                                          |               |              |
 | 14  |                                          |               |              |
