@@ -40,9 +40,7 @@
 | 6   |    Added chart data to response                                    |       Prasad        |                   Prasad   |
 | 7   |    wrong content type, html used instead of json                                      |    shaurya           |      shaurya        |
 | 8   | Fixed the src attribute for the <img> tag:  in analytics.html                                       |    Harshit           |   Harshit           |
-| 9   |  Added the missing <div class="container"> in items.html                                                 Harshit               Harshit
-
-                          
+| 9   |  Added the missing <div class="container"> in items.html                                                 Harshit               Harshi                         
 | 10  |   Added docstring and inline comments    |     sasikumar |    sasikumar |
 | 11  |                                          |               |              |
 | 12  |                                          |               |              |
