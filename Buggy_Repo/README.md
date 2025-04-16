@@ -55,7 +55,7 @@
 | 21  |    - No proper error handling         in items.py                       |   hemanth            |      hemanth        |
 | 22  |              - No proper type hints                                 |     hemanth          |    hemanth          |
 | 23  |                                          |               |              |
-| 24  |                                          |               |              |
+| 24  |Added <div id="news">Loading news...</div> inside the .container to ensure the script has a target element in news.html  | Harshit       |  Harshit            |
 | 25  |                                          |               |              |
 | 26  |                                          |               |              |
 | 27  |                                          |               |              |
