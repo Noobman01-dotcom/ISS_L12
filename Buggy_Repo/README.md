@@ -44,19 +44,16 @@
 | 10  |   Added docstring and inline comments    |     sasikumar |    sasikumar |
 | 11  |   baseURL is used in some places but missing in others                                        |   shaurya            |    shaurya          |
 | 12  |  In main.py-- Changed the home route path:                                       |         Prasad        |       Prasad         |
-| 13  |   i have changed the items.py - Duplicate POST endpoint for create_item
-- Incorrect delete endpoint with two parameters
-- No proper error handling
-- No proper type hints                                       |      hemanth         |     hemanth         |
+| 13  |   i have changed the items.py - Duplicate POST endpoint for create_item                                  |      hemanth         |     hemanth         |
 | 14  |  Returned collections as a dictionar     |  sasikumar    | sasikumar
 | 15  |. Named the database (testdb) and collections clearly     |   sasikumar            |      sasikumar        |
 | 16  |                      Incorrect delete endpoint with two parameters                    |      hemanth         |     hemanth         |
 | 17  |   Used os.getenv("MONGO_URL", ...)       |  sasikumar             |     sasikumar         |
 | 18  |                                          |               |              |
 | 19  |                                          |               |              |
-| 20  |                                          |               |              |
-| 21  |                                          |               |              |
-| 22  |                                          |               |              |
+| 20  |   - Incorrect delete endpoint with two parameters in items.py                                       |     hemanth          |     hemanth         |
+| 21  |    - No proper error handling         in items.py                       |   hemanth            |      hemanth        |
+| 22  |              - No proper type hints                                 |     hemanth          |    hemanth          |
 | 23  |                                          |               |              |
 | 24  |                                          |               |              |
 | 25  |                                          |               |              |
