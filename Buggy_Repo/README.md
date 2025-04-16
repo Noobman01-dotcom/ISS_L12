@@ -49,7 +49,7 @@
 | 15  |. Named the database (testdb) and collections clearly     |   sasikumar            |      sasikumar        |
 | 16  |                      Incorrect delete endpoint with two parameters                    |      hemanth         |     hemanth         |
 | 17  |   Used os.getenv("MONGO_URL", ...)       |  sasikumar             |     sasikumar         |
-| 18  |                                          |               |              |
+| 18  |    Wrong HTTP method in delete (search block), patch used                                      |     shaurya          |    shaurya          |
 | 19  |                                          |               |              |
 | 20  |   - Incorrect delete endpoint with two parameters in items.py                                       |     hemanth          |     hemanth         |
 | 21  |    - No proper error handling         in items.py                       |   hemanth            |      hemanth        |
