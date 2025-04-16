@@ -35,7 +35,7 @@
 | 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
 | 2   |    Added router prefix                                    | Prasad              |      Prasad          |
 | 3   |    Fixed user data initialization                                 |     Prasad                     |           Prasad      |
-| 4   |                                          |               |              |
+| 4   |      wrong method for deletion, using post instead of delete                                    |       Shaurya         |   Shaurya           |
 | 5   |                                          |               |              |
 | 6   |                                          |               |              |
 | 7   |                                          |               |              |
