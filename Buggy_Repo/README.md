@@ -60,5 +60,5 @@
 | 26  |Changed <script src="styles/profile.js"></script> to <script src="scripts/profile.js"></script> in profile.html.  | Harshit              |Harshit              |
 | 27  |                                          |               |              |
 | 28  |  <script src="scripts/quiz.js"></script>   in quiz.html                                     | Harshit              | Harshit             |
-| 29  |                                          |               |              |
-| 30  |                                          |               |              |
+| 29  |                                GET method for submitting answers in quiz.py          |    hemanth           |     hemanth         |
+| 30  |               No proper request body validation                            |         hemanth      |     hemanth         |
