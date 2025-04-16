@@ -61,4 +61,4 @@
 | 27  |                                          |               |              |
 | 28  |  <script src="scripts/quiz.js"></script>   in quiz.html                                     | Harshit              | Harshit             |
 | 29  |                                GET method for submitting answers in quiz.py          |    hemanth           |     hemanth         |
-| 30  |               No proper request body validation                            |         hemanth      |     hemanth         |
+| 30  |               No proper request body validation      in quiz.py                      |         hemanth      |     hemanth         |
