@@ -58,7 +58,7 @@
 | 24  |Added <div id="news">Loading news...</div> inside the .container to ensure the script has a target element in news.html  | Harshit       |  Harshit            |
 | 25  |                                          |               |              |
 | 26  |Changed <script src="styles/profile.js"></script> to <script src="scripts/profile.js"></script> in profile.html.  | Harshit              |Harshit              |
-| 27  |                                          |               |              |
+| 27  |              Global state for game_state       in quiz.py                     |       hemanth        |    hemanth          |
 | 28  |  <script src="scripts/quiz.js"></script>   in quiz.html                                     | Harshit              | Harshit             |
 | 29  |                                GET method for submitting answers in quiz.py          |    hemanth           |     hemanth         |
 | 30  |               No proper request body validation      in quiz.py                      |         hemanth      |     hemanth         |
