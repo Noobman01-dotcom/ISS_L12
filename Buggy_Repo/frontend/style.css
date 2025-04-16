@@ -1,2 +1,181 @@
-Aah I was too lazy to implement this
-You can do it
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input[type="text"] {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px;
+  font-size: 1.1em;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+input[type="text"], select {
+  padding: 10px;
+  font-size: 1em;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="text"]#search {
+  width: calc(100% - 20px);
+}
+
+select {
+  width: auto;
+  margin-right: 20px;
+}
+
+.news-scrollable {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+#loading {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.attempt-scrollable {
+  max-height: 300px;
+  overflow-y: scroll;
+  margin-top: 20px;
+}
+
+#scoreDisplay, #attemptCount {
+  font-size: 1.1em;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
+
+button#resetBtn {
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin-top: 20px;
+}
+
+button#resetBtn.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  nav {
+    padding: 15px 0;
+  }
+
+  nav a {
+    margin: 0 10px;
+    font-size: 1em;
+  }
+
+  form {
+    gap: 5px;
+  }
+
+  form input[type="text"] {
+    font-size: 0.9em;
+  }
+
+  form button {
+    font-size: 1em;
+  }
+}
