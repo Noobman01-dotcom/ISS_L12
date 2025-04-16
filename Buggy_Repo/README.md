@@ -43,9 +43,9 @@
 | 9   |  Added the missing <div class="container"> in items.html                                             |      Harshit       |Harshit                  
 | 10  |   Added docstring and inline comments    |     sasikumar |    sasikumar |
 | 11  |   baseURL is used in some places but missing in others                                        |   shaurya            |    shaurya          |
-| 12  |  In main.py-- Changed the home route path:                                       |         Prasad        |       Prasad         |
-| 13  |   i have changed the items.py - Duplicate POST endpoint for create_item                                  |      hemanth         |     hemanth         |
-| 14  |  Returned collections as a dictionar     |  sasikumar    | sasikumar
+| 12  |  In main.py-- Changed the home route path:  |         Prasad        |       Prasad         |
+| 13  |   i have changed the items.py - Duplicate POST endpoint for create_item          |      hemanth         |     hemanth         |
+| 14  |  Returned collections as a dictionar     |  sasikumar    | sasikumar|
 | 15  |. Named the database (testdb) and collections clearly     |   sasikumar            |      sasikumar        |
 | 16  |                      Incorrect delete endpoint with two parameters                    |      hemanth         |     hemanth         |
 | 17  |   Used os.getenv("MONGO_URL", ...)       |  sasikumar             |     sasikumar         |
