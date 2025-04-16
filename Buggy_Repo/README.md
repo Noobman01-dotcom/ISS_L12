@@ -33,8 +33,8 @@
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
 | 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
-| 2   |                                          |               |              |
-| 3   |                                          |               |              |
+| 2   |    Added router prefix                           Prasad           | Prasad              |              |
+| 3   |    Fixed user data initialization              Prasad           Prasad               |               |              |
 | 4   |                                          |               |              |
 | 5   |                                          |               |              |
 | 6   |                                          |               |              |
