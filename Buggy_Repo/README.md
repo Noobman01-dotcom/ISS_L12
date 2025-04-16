@@ -59,7 +59,7 @@ Hemanth Kumar : 2024101113.
 | 20  |   - Incorrect delete endpoint with two parameters in items.py                                       |     hemanth          |     hemanth         |
 | 21  |    - No proper error handling         in items.py                       |   hemanth            |      hemanth        |
 | 22  |              - No proper type hints                                 |     hemanth          |    hemanth          |
-| 23  |                                          |               |              |
+| 23  |      Added contents in style.css                                    | TEAM              | TEAM              |
 | 24  |Added <div id="news">Loading news...</div> inside the .container to ensure the script has a target element in news.html  | Harshit       |  Harshit            |
 | 25  |                                          |               |              |
 | 26  |Changed <script src="styles/profile.js"></script> to <script src="scripts/profile.js"></script> in profile.html.  | Harshit              |Harshit              |
