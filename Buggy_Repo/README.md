@@ -50,7 +50,7 @@
 - No proper type hints                                       |      hemanth         |     hemanth         |
 | 14  |  Returned collections as a dictionar     |  sasikumar    | sasikumar
 | 15  |. Named the database (testdb) and collections clearly     |   sasikumar            |      sasikumar        |
-| 16  |                                          |               |              |
+| 16  |                      Incorrect delete endpoint with two parameters                    |      hemanth         |     hemanth         |
 | 17  |   Used os.getenv("MONGO_URL", ...)       |  sasikumar             |     sasikumar         |
 | 18  |                                          |               |              |
 | 19  |                                          |               |              |
