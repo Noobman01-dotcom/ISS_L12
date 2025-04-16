@@ -43,7 +43,7 @@
 | 9   |  Added the missing <div class="container"> in items.html                                                 Harshit               Harshit
 
                                         |               |              |
-| 10  |                                          |               |              |
+| 10  |   Added docstring and inline comments                                       |     sasikumar          |     sasikumar         |
 | 11  |                                          |               |              |
 | 12  |                                          |               |              |
 | 13  |                                          |               |              |
