@@ -39,7 +39,7 @@
 | 5   |    In analytics.py --  Corrected field names                                      |      Prasad         |         Prasad       |
 | 6   |    Added chart data to response                                    |       Prasad        |                   Prasad   |
 | 7   |    wrong content type, html used instead of json                                      |    shaurya           |      shaurya        |
-| 8   | Fixed the src attribute for the <img> tag:                                         |    Harshit           |   Harshit           |
+| 8   | Fixed the src attribute for the <img> tag:  in analytics.html                                       |    Harshit           |   Harshit           |
 | 9   |                                          |               |              |
 | 10  |                                          |               |              |
 | 11  |                                          |               |              |
